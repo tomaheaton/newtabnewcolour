@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>New tab</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            html, 
+            body {
+                height: 100%;
+            }
+
+            body {
+                position: relative;
+            }
+
+            .hex-container {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .hex-title {
+                font-size: 5em;
+                color: white; 
+                font-family: 'Work Sans', sans-serif;
+                font-weight: 300;
+                text-align: center;
+            }
+        </style>
+    </head>
+  
+    <body>
+        <div class="hex-container">
+            <h1 class="hex-title" data-hex-value></h1>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
